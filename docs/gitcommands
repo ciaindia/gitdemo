@@ -1,0 +1,18 @@
+git status
+git add .
+git commit -m 'f1 added'
+
+----------------------------------
+if commit failed
+
+git config --global user.email "abc@xyz.com"
+git config --global user.name "abc xyz"
+
+git commit -m 'f1 added'
+----------------------------------
+
+git push origin master
+OR
+git push origin main
+OR just use
+git push
